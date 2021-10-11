@@ -75,6 +75,7 @@ function Home() {
         <div className="no-user-message">
           <h2>Welcome to Snippet manager</h2>
           <Link to="/register">Register here</Link>
+          <p className="no-snippets-msg">Best viewed in Chrome. This site requires a browser that enables third party cookies.</p>
         </div>
       )}
     </div>
