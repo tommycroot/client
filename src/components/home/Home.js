@@ -6,6 +6,8 @@ import SnippetEditor from "./SnippetEditor";
 import "./Home.scss";
 import UserContext from "../../context/UserContext";
 import domain from "../../util/domain";
+import example from "../../example.png";
+
 
 
 function Home() {
@@ -73,9 +75,12 @@ function Home() {
           )}
       {user === null && (
         <div className="no-user-message">
-          <h2>Welcome to Snippet manager</h2>
+          <h2>Welcome to Snippet Manager</h2>
           <Link to="/register">Register here</Link>
+          <p className="no-snippets-msgg">By Thomas Croot</p>
           <p className="no-snippets-msg">Best viewed in Chrome. This site requires a browser that enables third party cookies.</p>
+          <p className="no-snippets-msgg">Save and edit your own snippets of code for later use!</p>
+          <p className="image"><img src={example} /> </p>
         </div>
       )}
     </div>

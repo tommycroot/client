@@ -13,14 +13,30 @@
 
   }
 
+  .no-snippets-msgg {
+    margin-top: 2rem;
+    color: var(--danger-light-color);
+    font-weight: bold;
+
+  }
+
+  .image {
+    margin-top: 4rem;
+
+  }
+
   .no-user-message {
     margin-top: 6rem;
     color: var(--text-light-color);
     text-align: center;
 
+
+
     h2 {
       font-size: 3rem;
+      color: var(--danger-light-color);
     }
+
 
     a {
       @include btn();
