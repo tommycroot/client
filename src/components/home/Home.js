@@ -80,7 +80,7 @@ function Home() {
           <p className="no-snippets-msgg">By Thomas Croot</p>
           <p className="no-snippets-msg">Best viewed in Chrome. This site requires a browser that enables third party cookies.</p>
           <p className="no-snippets-msgg">Save and edit your own snippets of code for later use!</p>
-          <p className="image"><img src={example} alt="example image"/> </p>
+          <p className="image"><img src={example} alt="example"/> </p>
         </div>
       )}
     </div>
